@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Login" skipped="0" tests="1" time="0.51" timestamp="2022-08-26 11:42:38"><testcase name="Login Successful"><error message="No stage available - it looks like you haven't called the setTheStage() method before calling this one." type="net.serenitybdd.screenplay.actors.NoStageException">No stage available - it looks like you haven't called the setTheStage() method before calling this one.</error><system-err>No stage available - it looks like you haven't called the setTheStage() method before calling this one.&#13;
+com.co.senasoft.stepsdefinitions.LoginStepDefinition.heUserIsOnThePage(LoginStepDefinition.java:37)&#13;
+✽.He user is on the page(file:///C:/Users/Admin/Downloads/screenplaysenasoft/src/test/resources/features/login.feature:5)&#13;
+</system-err></testcase></testsuite>

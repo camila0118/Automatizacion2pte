@@ -1,0 +1,32 @@
+package models;
+
+public class CreateUserRequestBuilder {
+
+    private  Data data;
+    private CreateUserRequestBuilder(){
+        data = new Data();
+    }
+
+    public static CreateUserRequestBuilder aUser()
+    {
+        return  new CreateUserRequestBuilder();
+    }
+
+    public CreateUserRequestBuilder withPassword(String password)
+    {
+        this.data.setPassword(password);
+        return this;
+    }
+
+    public CreateUserRequestBuilder withEmail(String email)
+    {
+        this.data.setEmail(email);
+        return this;
+    }
+
+    public Data build()
+    {
+        return data;
+
+    }
+}

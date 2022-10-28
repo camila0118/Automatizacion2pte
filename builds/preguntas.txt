@@ -1,0 +1,263 @@
+Set de preguntas: 
+
+¿Que contiene una HU? 
+Los tres pasos a seguir para redactar una historia de usuario son los siguientes: 
+Perfil: el rol del usuario final. 
+Necesidad: el objetivo que tiene la función de software para el usuario final. 
+Propósito: el objetivo de la experiencia del usuario final con la función de software
+
+
+Cual es el ciclo de vida de un proyecto ágil. Desde el inception, pasando por las ceremonias de sprint (cuanto duran) 
+El ciclo de vida ágil es un ciclo iterativo extremo, en el cual las iteraciones se acortan a semanas, para aprender de los errores de manera rápida. 
+Este ciclo supone una limpieza constante del producto, para no afectar a la productividad de los equipos y gestión de los proyectos.
+product bacgloc, product owner, stakeholders, Identificar las personas, roles y actividades, impac mapping, hu.
+Scrum prescribe que un Sprint debe durar 4 semanas más o menos.
+Sprint Planning
+Sprint Review 
+Retrospectiva
+Refinement, que sirve para, dentro del Sprint, afinar y aclarar ciertas historias de usuario que pudieron quedar pendientes durante el Sprint Planning.
+
+
+Si hubiera que hacer un desarrollo, ¿pero no existe HU ni PO que la defina, Que recomendaría? 
+no.
+
+
+¿Como se reporta un bug? 
+Localice y adjunte registros.
+Entre en los detalles necesarios.
+Incluya capturas de pantalla. 
+Comprenda el impacto del defecto.
+Tenga en cuenta la plataforma.
+
+
+¿Que debe decir un caso de prueba y como se define? 
+La entrada conocida debe probar una precondición y la salida esperada debe probar una postcondición.
+test case: es un conjunto de condiciones o variables bajo las cuales se determinará si una aplicación, 
+un sistema de software o una característica o comportamiento de estos resulta o no aceptable.
+
+Que es y para que sirve INVEST y SMART 
+INVEST:
+I - Independent (independiente)
+N - Negotiable (negociable)
+V -  Valuable (valiosa)
+E - Estimable (estimable)
+S - Small (pequeña)
+T - Testable (comprobable)
+
+Independent (independiente)
+Es ventajoso que cada historia de usuario pueda ser planificada e implementada en cualquier orden. 
+Para ello las historias deberían de ser totalmente independientes (lo cual facilita el trabajo posterior del equipo). 
+Resaltar que las dependencias entre historias de usuario pueden reducirse combinándolas en una o dividiéndolas de manera diferente.
+
+Negotiable (negociable)
+Una historia de usuario es una descripción corta de una necesidad que no incluye detalles. 
+Las historias deben ser negociables ya que sus detalles serán acordados con el cliente o el usuario durante la fase de conversación. 
+Por tanto, se debe evitar historias de usuario con demasiados detalles porque limitaría la conversación acerca de las mismas.
+
+Valuable (valiosa)
+Una historia de usuario tiene que ser valiosa para el cliente o el usuario. 
+Una manera de hacer una historia valiosa es que la escriba el mismo.
+
+Estimable (estimable)
+Una buena historia de usuario debe de poder ser estimada con la precisión suficiente para ayudar al cliente, 
+usuario o propietario del producto a priorizar y planificar su implementación. 
+La estimación generalmente la realizará el equipo de trabajo y está directamente relacionada con el tamaño de la historia de usuario 
+(una historia de usuario de gran tamaño es más difícil de estimar) y con el conocimiento del equipo de la necesidad expresada 
+(en el caso de falta de conocimiento, serán necesarias mas fases de conversación acerca de la misma).
+
+Small (pequeña)
+Las historias de usuario deberían englobar como mucho unas pocas semanas/persona de trabajo. 
+Incluso hay equipos que las restringen a días/persona. 
+Una descripción corta ayuda a disminuir el tamaño de una historia de usuario facilitando así su estimación.
+
+Testable (comprobable)
+La historia de usuario debería ser capaz de ser probada (fase confirmación de la historia de usuario). 
+Si el cliente o usuario no sabe como probar la historia de usuario significa que no es del todo clara o que no es valiosa. 
+Si el equipo no puede probar una historia de usuario nunca sabrá si la ha terminado o no.
+
+PARA QUE SIRVE:puede recordar cuales son las características para una buena historia de usuario.
+
+SMART es el acrónimo inglés de: 
+“specific” (específico), 
+“measurable” (medible), 
+“attainable” (alcanzable), 
+“relevant” (relevante)  
+“timely” (a tiempo). 
+Se refiere a las condiciones que deberían cumplir los objetivos de una empresa para ser considerados inteligentes y eficaces.
+Son metas concretas que permiten analizar el desempeño de nuestros esfuerzos, 
+ya sea en marketing o en cualquier área de una empresa que requiera ordenar y medir su trabajo de manera sistemática.
+
+
+Que es y para qué sirve el patrón triple AAA 
+Un test tiene tres partes, que se identifican con las siglas AAA en inglés: 
+Arrange (Preparar), 
+Act (Actuar), 
+Assert (Afirmar). 
+Una parte de la preparación puede estar contenida en el método SetUp , si es común a todos los tests de la clase.
+El patrón AAA tiene como objetivo dividir cada una de las pruebas en 3 fases: arrange, act y assert, que en español sería: 
+organizar, actuar y verficar, comencemos con un ejemplo para explicar cada una de estas partes: 
+Los ejemplos en este post están escritos en javascript usando el framewrok de pruebas JEST.
+
+
+¿Cuáles son los principios SOLID? 
+Los principios de programación SOLID son una excelente guía para mejorar tus habilidades de programación. 
+Recuerda que los patrones y los principios de programación son solo guías
+S-unica responsabilidad: toda clase debe tener una unica responsabilidad bien definida.
+O-open-close: Este principio nos dice que una clase debe estar abierta para su extensión pero cerrada para su modificación
+L-liskov: 
+I-segregacion de interfaces: Este principio nos dice que no debemos forzar clases a implementar elementos o características que no necesitan
+D-inversion de dependencias: Este principio habla de cómo podemos desacoplar nuestro código, nos dice que no debemos crear clases con dependencias muy estrictas.
+
+
+¿Cuáles son los principios FISRT? 
+FIRST es el acrónimo de las cinco características que deben tener nuestros tests unitarios para ser considerados tests con calidad:
+Fast (rápido): Una de las ventajas que nos ofrecen los test unitarios es la posibilidad de ejecutar un gran número de tests en cuestión de segundos
+Independent (independiente): Por muchas pruebas unitarias que tengamos, todas deben de ser independientes de las otras.
+En el momento que un test falla por el orden en el que se ha ejecutado, tenemos claro que ese test está mal desarrollado. 
+El resultado no debe verse alterado ejecutando los tests en un orden y otro o incluso de forma independiente.
+Repeatable (repetible):
+Self-validating (auto evaluable)
+Timely (oportuno)Esta última característica se basa en cuándo deberíamos tener desarrolladas las pruebas, 
+que deben estar desarrolladas lo antes posible y siempre antes de subir código a producción.
+
+
+
+¿Cuáles son los 7 principios de la calidad? 
+1 – Enfoque en el cliente.
+2 – Liderazgo.
+3 – Compromiso de las personas. 
+4 – Enfoque de procesos. 
+5 – Toma de decisiones basadas en evidencias. 
+6 – La mejora continua. 
+7 – Gestión de relaciones.
+
+
+
+¿Qué es cucumber? 
+Cucumber es una herramienta para implementar metodologías como el Behaviour Driven Development (BDD) o desarrollo basado en comportamiento, 
+que permite ejecutar descripciones funcionales en texto plano como pruebas de software automatizadas.
+Estas descripciones funcionales se escriben en un lenguaje específico de dominio, legible por el área de negocio, 
+denominado Gherkin, que soporta más de 60 idiomas. Gherkin sirve simultáneamente como documentación de apoyo al desarrollo y a las pruebas automatizadas.
+
+Teniendo en cuenta lo anterior, sabemos que Cucumber es una herramienta basada en  el modelo BDD y la colaboración con personas no técnicas. 
+Tiene una orientación hacía el negocio, y su finalidad es desarrollar pruebas funcionales y de integración. 
+Por tanto, personas que no tengan conocimientos técnicos o de programación pueden comprenderlas, como un product owner (cliente o dueño del producto) 
+o cualquier otro individuo que esté involucrado en el desarrollo de un proyecto.
+
+
+¿Que son los indicadores de acceso? 
+
+
+¿Cuál es la estructura del patrón POM? 
+El patrón POM encapsula el comportamiento de las páginas, o una parte de este, con una API específica de la aplicación, 
+lo que nos permite escribir tests y manipular elementos de la página sin tener que lidiar con el HTML. En resumen, 
+el patrón POM se usa para hacer pruebas funcionales automatizadas.
+
+
+¿Cuáles técnicas de estimación conoces? 
+Plan de pruebas.
+Casos de prueba.
+Ejecución de pruebas.
+Gestión del defecto.
+Verificación completa.
+Regresión.
+Pruebas exploratorias.
+Informe y resultado.
+
+
+¿Cuáles gestores de dependencias trabajas? 
+gradle 6.8
+jdk java 11
+
+
+¿Cuáles herramientas para revisar el código hay y para qué sirve? 
+
+
+Que contiene un plan de pruebas (descripción, alcance, fuera de alcance, estrategia, escenarios, prerrequisitos, infraestructura, datos, supuestos, limitaciones) 
+
+
+¿Qué es gherkin? 
+El lenguaje Gherkin define la estructura y una sintaxis básica para la descripción de las pruebas que pueden ser entendidas tanto por los 
+integrantes técnicos del equipo como así también por los Analistas/PO o quien quiera que este como representante del cliente. 
+De esta manera mientras se generan pruebas se esta generando documentación viva que describe perfectamente como se comporta el sistema enriqueciendo y 
+manteniendo la documentación.
+
+
+Gherkin declarativo e imperativo? 
+declarativo es el comun y corriente, el que es corto y consiso.
+imperativo se refiere a cuando escribimos cada paso a ejecutar en la interfaz de usuario, es mas largo.
+
+
+¿Etapas de un proceso de desarrollo? 
+
+
+¿Que son las pruebas automatizadas? 
+
+
+¿Cuáles tipos de pruebas automatizadas hay? 
+
+
+¿Cuál es el beneficio de automatizar pruebas y porque correrlas en un pipeline? 
+
+
+¿Técnicas de construcción de casos de prueba? 
+
+
+¿Qué es un bug stopper o bloqueante? 
+
+
+¿Qué es un patron de diseño?
+ 
+
+Del given, When, ¿Then cuál es opcional? ¿Y por qué? 
+
+
+¿Como se construye un riesgo? 
+
+
+¿Qué es la criticidad en un riesgo? 
+
+
+¿Qué es la estimación EDT? 
+
+¿Que son las pruebas de componente? 
+
+¿Para qué sirve la carpeta TEST y la carpeta MAIN? 
+
+Dar un ejemplo sobre una técnica de diseño 
+
+¿Cuáles técnicas de estimación conoces? 
+
+¿En qué etapa del ciclo de vida de desarrollo de software se deberían de hacer las pruebas automatizadas? 
+
+¿Por qué utilizo XPATH dinámicos y cuál es la ventaja de estos? 
+
+¿Qué es un XPATH relativo y un XPATH absoluto? 
+
+¿Cuál es el impacto de utilizar muchas esperas explicitas? 
+
+¿Cuáles son las esperas implícitas? 
+
+¿Cuáles son los pilares de la POO? 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Que es la estimación EDT 

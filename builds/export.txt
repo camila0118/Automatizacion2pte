@@ -1,0 +1,16 @@
+val binder = File (Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS),
+        "/ExportSqliteCSV")
+        val archivo = binder.toString() + "/" + "${binding}.csv"
+        var isCreate = false
+        if (!binder.exists()){
+            isCreate = binder.mkdir()
+        }
+
+        val fileWriter = FileWriter(archivo)
+
+        /*headers*/
+        fileWriter.append("nombre")
+        fileWriter.append(",")
+        fileWriter.append("sexo")
+
+        /*data excel*/

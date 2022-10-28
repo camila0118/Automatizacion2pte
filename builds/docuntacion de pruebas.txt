@@ -1,0 +1,103 @@
+DOCUMENTACION DE PRUEBAS.
+
+
+PRUEBAS FUNCIONALES: se componen de 2 tipos ->
+
+
+prubas de caja blanca:
+como funciona el sotfware, Back.
+pruebas unitarias->revisar modulo por modulo y se haen pruebas por medion enpoint.
+pruebas de integraci0on->mas de un modulo.
+prubas de API-> por medio de token.
+
+pruebas de caja negra:
+parte visual, front.
+modulares-> es probar pequeños modulos de la pg web().
+pruebas de integracion-> unir mas de dos modulos.
+pruebas de regrecion-> tengo lista una automatizacion y se le hacen cambios verifico y vuelo y automatizo.
+pruebas E2E-> automatizacion de flujo completo.
+
+
+
+toda automatizacion debe tener su duc ->  TESTPLAN
+
+
+descripcion: 
+breve resumen del sistema y de lo vas a realizar con la prueba.
+
+
+alcance: desde donde hasta donde se realizaran las pruebas.
+ej (se validara que el modulo de login funcione correctamente)
+ej(si es tienda de ropa se validara que en la sesion de zapatos no hayan bolsos)
+la intencion es automatizar lo mas importante.
+
+
+fuera de alcance: lo que no se va a probar
+ej(no se probara que la automatizacion funcione en otros navegadores.)
+ej (no se probara el modulo de PQR)
+se utilizan las automatizaciones para evitar errores humanos, con el fin ded mejorar la calidad de nuestro sotfware..
+
+
+estrategia: como voy a realizar mis pruebas. son los escenarios que yo voy a automatizar   (lenguage gerkin)
+se validara que al ingresar una contraseña correcta y un usario me permita el acceso.
+se validara que al ingresar una contraseña incorrecta y un usario no me permita el acceso.
+
+
+escenarios: 
+dado->que estoy en la pagina. 
+cuando->cuando ingreso las credenciales.
+entonces-> el usuario estara logueado.
+
+prerequisito: lo que yo necesito.
+ej -> conexion a internet
+que google tenla la version mas actualizada
+
+
+
+infraestuctura: lo q necesito en fisico
+ej -> cecular android 9.1
+computador core i3
+
+
+datos: 
+ej -> credenciales
+tener el rol de administrador.
+
+
+supuestos:
+ej (suponego que laas credenciales son correctas)
+ej -> supongo que mi ancho de banda es de 300 mb por segundo.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

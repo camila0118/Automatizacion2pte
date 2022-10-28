@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Login into the web app" skipped="0" tests="1" time="3.33" timestamp="2022-08-29 12:04:39"><testcase name="Successful login"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 91&#10;Current browser version is 104.0.5112.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-Q5H3KMR', ip: '10.185.81.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'&#10;Driver info: driver.version: ProvideNewDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x007A3733+2504499]&#10;&#9;Ordinal0 [0x0073C401+2081793]&#10;&#9;Ordinal0 [0x00642628+1058344]&#10;&#9;Ordinal0 [0x0066071A+1181466]&#10;&#9;Ordinal0 [0x0065C58C+1164684]&#10;&#9;Ordinal0 [0x00659DC3+1154499]&#10;&#9;Ordinal0 [0x00689B82+1350530]&#10;&#9;Ordinal0 [0x006897DA+1349594]&#10;&#9;Ordinal0 [0x00685D4B+1334603]&#10;&#9;Ordinal0 [0x006622B4+1188532]&#10;&#9;Ordinal0 [0x00663149+1192265]&#10;&#9;GetHandleVerifier [0x0091FB8C+1512252]&#10;&#9;GetHandleVerifier [0x009CB0DF+2214031]&#10;&#9;GetHandleVerifier [0x00824BC3+484211]&#10;&#9;GetHandleVerifier [0x00823E69+480793]&#10;&#9;Ordinal0 [0x0074218D+2105741]&#10;&#9;Ordinal0 [0x007466E8+2123496]&#10;&#9;Ordinal0 [0x00746827+2123815]&#10;&#9;Ordinal0 [0x0074FB73+2161523]&#10;&#9;BaseThreadInitThunk [0x74D86359+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x775E8944+228]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x775E8914+180]&#10;). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 104.0.5112.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q5H3KMR', ip: '10.185.81.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007A3733+2504499]
+	Ordinal0 [0x0073C401+2081793]
+	Ordinal0 [0x00642628+1058344]
+	Ordinal0 [0x0066071A+1181466]
+	Ordinal0 [0x0065C58C+1164684]
+	Ordinal0 [0x00659DC3+1154499]
+	Ordinal0 [0x00689B82+1350530]
+	Ordinal0 [0x006897DA+1349594]
+	Ordinal0 [0x00685D4B+1334603]
+	Ordinal0 [0x006622B4+1188532]
+	Ordinal0 [0x00663149+1192265]
+	GetHandleVerifier [0x0091FB8C+1512252]
+	GetHandleVerifier [0x009CB0DF+2214031]
+	GetHandleVerifier [0x00824BC3+484211]
+	GetHandleVerifier [0x00823E69+480793]
+	Ordinal0 [0x0074218D+2105741]
+	Ordinal0 [0x007466E8+2123496]
+	Ordinal0 [0x00746827+2123815]
+	Ordinal0 [0x0074FB73+2161523]
+	BaseThreadInitThunk [0x74D86359+25]
+	RtlGetAppContainerNamedObjectPath [0x775E8944+228]
+	RtlGetAppContainerNamedObjectPath [0x775E8914+180]
+). See below for more details.</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 104.0.5112.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q5H3KMR', ip: '10.185.81.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007A3733+2504499]
+	Ordinal0 [0x0073C401+2081793]
+	Ordinal0 [0x00642628+1058344]
+	Ordinal0 [0x0066071A+1181466]
+	Ordinal0 [0x0065C58C+1164684]
+	Ordinal0 [0x00659DC3+1154499]
+	Ordinal0 [0x00689B82+1350530]
+	Ordinal0 [0x006897DA+1349594]
+	Ordinal0 [0x00685D4B+1334603]
+	Ordinal0 [0x006622B4+1188532]
+	Ordinal0 [0x00663149+1192265]
+	GetHandleVerifier [0x0091FB8C+1512252]
+	GetHandleVerifier [0x009CB0DF+2214031]
+	GetHandleVerifier [0x00824BC3+484211]
+	GetHandleVerifier [0x00823E69+480793]
+	Ordinal0 [0x0074218D+2105741]
+	Ordinal0 [0x007466E8+2123496]
+	Ordinal0 [0x00746827+2123815]
+	Ordinal0 [0x0074FB73+2161523]
+	BaseThreadInitThunk [0x74D86359+25]
+	RtlGetAppContainerNamedObjectPath [0x775E8944+228]
+	RtlGetAppContainerNamedObjectPath [0x775E8914+180]
+). See below for more details.&#13;
+co.com.phptravels.steps.LoginPageSteps.openPhpTravelsPage(LoginPageSteps.java:13)&#13;
+co.com.phptravels.stepDefinitions.loginStepDefinitions.thatBobHasAnActiveAccount(loginStepDefinitions.java:16)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:64)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:104)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:73)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)&#13;
+</system-err></testcase></testsuite>

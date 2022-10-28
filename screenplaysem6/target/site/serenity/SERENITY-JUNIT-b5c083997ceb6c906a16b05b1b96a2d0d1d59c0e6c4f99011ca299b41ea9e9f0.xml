@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="buy product" skipped="0" tests="1" time="0.54" timestamp="2022-08-30 09:01:09"><testcase name="buy successful"><error type="java.lang.ExceptionInInitializerError"/><system-err>null&#13;
+cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)&#13;
+cucumber.deps.com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:574)&#13;
+cucumber.deps.com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:530)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+✽.he user is on the page(src/test/resources/features/buy.feature:6)&#13;
+</system-err></testcase></testsuite>
